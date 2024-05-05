@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Responsive website - Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<img src="images/logo (2).png">
+		<div class="topnav" id="myTopnav">
+			<a href="#home">Home</a>
+			<a href="#news">Productos</a>
+			<a href="#contact">Servicios</a>
+			<a href="#about">Nosotros</a>
+			<a href="#about">Contacto</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		    	<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</header>
+	<main>
+		<section id="intro">
+			<h1>BIENVENIDOS</h1>
+			<p>Cero azucar. 100% Sprite. Disfruta de la mejor bebida gasificada y atrevete a la mejor experiencia natural.</p>
+			<a href="#" class="boton">Reserva</a>
+		</section>
+		<section>
+			<h2>Productos</h2>
+			<div class="container-01">
+				<div>
+					<img src="images/cherry.png">
+					<h3>Chery</h3>
+					<p>El novedoso sabor cherry que va a refrescarte el paladar.</p>
+				</div>
+				<div>
+					<img src="images/clasica.png">
+					<h3>La Clásica</h3>
+					<p>El sabor tradicional de nuestra clasica siempre.</p>
+				</div>
+				<div>
+					<img src="images/cherry zero.png">
+					<h3>Cherry Zero</h3>
+					<p>Cuidamos tu salud con alternativas cero azucar.</p>
+				</div>
+				<div>
+					<img src="images/ginger.png">
+					<h3>Ginger</h3>
+					<p>La deliciosa ginger para las mejores noches.</p>
+				</div>
+				<div>
+					<img src="images/limon.png">
+					<h3>Limon Zero</h3>
+					<p>Cuidamos tu salud con alternativas cero azucar.</p>
+				</div>
+			</div>
+		</section>
+		<section style="background: #d0ffd6;">
+			<h2>Nosotros</h2>
+			<div class="container-02">
+				<div>
+					<img src="images/trabajadores1.png">
+					<h3>Comunidad</h3>
+					<p>Formamos parte del equipo de Coca Cola teniendo una integra y amigable comunidad.</p>
+				</div>
+				<div>
+					<img src="images/trabajadores2.png">
+					<h3>Ventas</h3>
+					<p>Nuestro equipo de ventas siendo de los mejores en el mercado promocionando nuestros productos.</p>
+				</div>
+			</div>
+		</section>
+		<section>
+			<h2>Servicios</h2>
+			<div class="container-01">
+				<div>
+					<img src="images/servicio1.png">
+					<h3>Compra</h3>
+					<p>Seguridad alimentaria y medidas patra protección de productos y clientes</p>
+				</div>
+				<div>
+					<img src="images/servicio2.png">
+					<h3>Venta</h3>
+					<p>Eficacia en la presentación de nuestros productos, con garantía de asepcia</p>
+				</div>
+				<div>
+					<img src="images/servicio3.png">
+					<h3>Distribución</h3>
+					<p>Tiempos cortos y satisfacción total al momento de la entrega por delivery</p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p class="p-footer">2023. Todos los derechos reservados.</p>
+	</footer>
+	<!-- JS PARA MENU SUPERIOR -->
+	<script type="text/javascript">
+		function myFunction() {
+  			var x = document.getElementById("myTopnav");
+  			if (x.className === "topnav") {
+    			x.className += " responsive";
+  			} else {
+    		x.className = "topnav";
+  			}
+		}
+	</script>
+</body>
+</html>
